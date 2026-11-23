@@ -9,7 +9,7 @@ weight = st.number_input("กรอกน้ำหนักของคุณ (�
 height_cm = st.number_input("กรอกส่วนสูงของคุณ (เซนติเมตร):", min_value=1.0, value=1.0)
 
 #3 start calculating
-if st.button("calculate BMI")
+if st.button("calculate BMI"):
   # CHANGE CM TO MAND CALCULATE BMI
   height_m = height_cm / 100
   bmi = weight / (height_m ** 2)
